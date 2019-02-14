@@ -1,5 +1,7 @@
 var usermodel = require("../model/userModel");
 
+console.log("hello");
+
 exports.userRegistration = function(req, res, next) {
     let usreData = req.body;
     let resObj;
